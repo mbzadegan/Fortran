@@ -9,9 +9,6 @@
 ! 1.000    2.000    3.000    4.000
 ! 9.000   10.000   11.000   12.000
 
-
-
-
 program data_cleaning
     implicit none
     character(len=100) :: input_file, output_file
