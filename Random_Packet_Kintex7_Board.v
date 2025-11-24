@@ -1,6 +1,13 @@
 // ==========================================================
 //  Random Packet Generator using LFSR
 //  Works on Xilinx Kintex-7 FPGA
+//  Below is a simple and synthesizable Verilog module for Kintex-7 that generates random packet data using an LFSR-based hardware RNG. This works in real FPGA logic and is commonly used in network traffic generators.
+//  Features:
+//  32-bit LFSR random number generator
+//  Generates packets of configurable size
+//  Outputs data with valid signal
+//  Clock-synchronous and synthesizable for Xilinx FPGAs
+//  No proprietary IP required
 // ==========================================================
 module packet_generator (
     input  wire        clk,
