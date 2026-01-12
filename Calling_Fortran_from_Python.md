@@ -1,6 +1,6 @@
 # Python_Fortran-HPC
 
-## Calling a Fortran library in the Python
+## Calling a Fortran library in Python
 
 This example demonstrates using Fortran for performance-critical tasks like matrix multiplication while leveraging Python for high-level operations and easy integration. Using ctypes allows Python to call Fortran subroutines directly, making it a seamless and powerful combination for scientific computing tasks.
 
