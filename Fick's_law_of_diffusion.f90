@@ -1,4 +1,4 @@
-!  Here's an example of a Fortran program that solves a challenging mass transfer problem involving diffusion in a one-dimensional domain with transient conditions. The problem we will model is the diffusion of a substance in a one-dimensional solid, where the concentration of the substance changes over time due to diffusion.
+!  Here's an example of a Fortran program that solves a challenging mass-transfer problem involving diffusion in a one-dimensional domain under transient conditions. The problem we will model is the diffusion of a substance in a one-dimensional solid, where the concentration of the substance changes over time due to diffusion.
 
 ! We'll use the finite difference method to discretize the governing partial differential equation (PDE), which is Fick's law of diffusion:
 
