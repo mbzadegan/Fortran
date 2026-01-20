@@ -46,7 +46,7 @@ program data_cleaning
         do i = 1, max_columns
             read(line, *, iostat=iostat) data_row(i)
             if (iostat /= 0) then
-                if (i == 1) valid_data = .false.  ! Entire row is invalid
+                if (i == 1) valid_data = .false.  ! The entire row is invalid
                 exit
             end if
             num_columns = num_columns + 1
