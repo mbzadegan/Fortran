@@ -1,5 +1,4 @@
 ! Multiply two n×n matrices A and B
-
 module matrix_multiply
   implicit none
 contains
