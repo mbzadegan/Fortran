@@ -1,4 +1,4 @@
-!Below is an example where Fortran is used to analyze and solve a challenging data-analysis problem: Principal Component Analysis (PCA) on a dataset. PCA is a dimensionality-reduction technique used in statistics and machine learning to identify patterns in data and express it in a way that highlights similarities and differences. PCA requires calculating the covariance matrix, finding its eigenvalues and eigenvectors, and projecting the data onto principal components.
+! Below is an example of Fortran used to analyze and solve a challenging data analysis problem: Principal Component Analysis (PCA) on a dataset. PCA is a dimensionality-reduction technique used in statistics and machine learning to identify patterns in data and express it in a way that highlights similarities and differences. PCA requires calculating the covariance matrix, finding its eigenvalues and eigenvectors, and projecting the data onto principal components.
 
 program pca_example
   implicit none
