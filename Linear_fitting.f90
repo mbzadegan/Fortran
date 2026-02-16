@@ -1,4 +1,4 @@
-! Fortran Code for Linear Curve Fitting by input 2xn matrix
+! Fortran Code for calculate the Linear Curve Fitting by input 2xn matrix
 
 program curve_fitting
   implicit none
