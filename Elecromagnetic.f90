@@ -25,7 +25,7 @@ PROGRAM TE_Mode_Solver
   V = 0.0_dp
   Laplace = 0.0_dp
 
-  ! Boundary conditions for TE mode (e.g., zero at edges)
+  ! Boundary conditions for TE mode (ex, zero at edges)
   V(:, 0) = 0.0_dp
   V(:, Ny) = 0.0_dp
   V(0, :) = 0.0_dp
